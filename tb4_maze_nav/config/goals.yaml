@@ -1,0 +1,8 @@
+# Danh sach goal cho node goal_sender: [x, y, yaw, x, y, yaw, ...]  (m, m, rad), frame map.
+# SUA cac toa do nay cho khop ban do cua ban (xem toa do tren RViz2 bang cong cu Publish Point).
+goal_sender:
+  ros__parameters:
+    frame_id: map
+    goals: [1.0, 0.0, 0.0,
+            2.0, 1.0, 1.57,
+            0.0, 0.0, 3.14]
